@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">Kalculator</string>
     <string name="wrong_expression">Wrong expression</string>
     <string name="wrong_operation">Wrong operation</string>
 

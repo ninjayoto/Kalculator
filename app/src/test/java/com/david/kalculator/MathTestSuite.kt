@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 import org.junit.runner.RunWith
 import org.junit.runners.Suite

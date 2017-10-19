@@ -6,7 +6,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "com.david.calculator"
+        applicationId "com.david.kalculator"
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -25,14 +25,15 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     //TESTING
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'})
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestCompile 'com.android.support:support-annotations:26.1.0'
+    androidTestCompile 'pl.pragmatists:JUnitParams:1.1.0'
     testCompile 'junit:junit:4.12'
     testCompile 'pl.pragmatists:JUnitParams:1.1.0'
     testCompile "com.google.truth:truth:0.36"
 
     //ANDROID LIBRARIES
-    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:appcompat-v7:26.1.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
 
     //KOTLIN

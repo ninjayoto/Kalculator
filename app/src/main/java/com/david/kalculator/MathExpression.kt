@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 
 object MathExpression {
@@ -11,7 +11,7 @@ object MathExpression {
         return if (character.isAnOperator() && this.adaptFromScreen().endsWithOperator()) {
             this.replaceLastCharacter(character).adaptToScreen()
 
-        } else this.plus(character).adaptToScreen();
+        } else this.adaptFromScreen().plus(character).adaptToScreen();
     }
 
     @Throws(IllegalArgumentException::class)
@@ -57,7 +57,7 @@ object MathExpression {
     }
 
     fun String.isANumber(): Boolean {
-        return this.matches("-?\\d+(\\.\\d+)?".toRegex())
+        return this.matches("-?\\d+(\\.\\d*)?".toRegex())
     }
 
     private fun Char.isInvalid(): Boolean {
@@ -69,7 +69,7 @@ object MathExpression {
                 this.endsWith(MathSymbols.MULTIPLICATION) || this.endsWith(MathSymbols.DIVISION) ||
                 this.endsWith(MathSymbols.EXPONENTIATION) || this.endsWith(MathSymbols.SQUARE_ROOT) ||
                 this.endsWith(MathSymbols.NATURAL_LOGARITHM) || this.endsWith(MathSymbols.BASE_10_LOGARITHM) ||
-                this.endsWith(MathSymbols.FACTORIAL)
+                this.endsWith(MathSymbols.FACTORIAL) || this.endsWith(MathSymbols.DOT)
     }
 
     private fun String.replaceLastCharacter(character: String): String {

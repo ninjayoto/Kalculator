@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 object MathOperation {
 

@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 internal object MathSymbols {
 
@@ -19,4 +19,5 @@ internal object MathSymbols {
     val PARENTHESIS_END = ")"
     val NONE = "none"
     val EMPTY_STRING = ""
+    val DOT = "."
 }

@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -8,8 +8,8 @@ import junitparams.Parameters
 
 import com.google.common.truth.Truth.assertThat
 
-import com.david.calculator.MathExpression.addCharacter
-import com.david.calculator.MathExpression.removeLastCharacter
+import com.david.kalculator.MathExpression.addCharacter
+import com.david.kalculator.MathExpression.removeLastCharacter
 
 @RunWith(JUnitParamsRunner::class)
 class MathExpressionTest {

@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 import junitparams.JUnitParamsRunner
 import junitparams.Parameters

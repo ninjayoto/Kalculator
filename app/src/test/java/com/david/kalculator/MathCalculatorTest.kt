@@ -1,4 +1,4 @@
-package com.david.calculator
+package com.david.kalculator
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -9,7 +9,7 @@ import junitparams.Parameters
 import com.google.common.truth.Truth.assertThat
 import junit.framework.Assert.assertEquals
 
-import com.david.calculator.MathCalculator.splitExpression
+import com.david.kalculator.MathCalculator.splitExpression
 
 @RunWith(JUnitParamsRunner::class)
 class MathCalculatorTest {

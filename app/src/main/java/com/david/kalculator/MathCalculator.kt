@@ -1,23 +1,23 @@
-package com.david.calculator
+package com.david.kalculator
 
-import com.david.calculator.MathSymbols.ADDITION
-import com.david.calculator.MathSymbols.BASE_10_LOGARITHM
-import com.david.calculator.MathSymbols.DIVISION
-import com.david.calculator.MathSymbols.EMPTY_STRING
-import com.david.calculator.MathSymbols.EXPONENTIATION
-import com.david.calculator.MathSymbols.FACTORIAL
-import com.david.calculator.MathSymbols.MULTIPLICATION
-import com.david.calculator.MathSymbols.NATURAL_LOGARITHM
-import com.david.calculator.MathSymbols.NONE
-import com.david.calculator.MathSymbols.PARENTHESIS_END
-import com.david.calculator.MathSymbols.PARENTHESIS_START
-import com.david.calculator.MathSymbols.SQUARE_ROOT
-import com.david.calculator.MathSymbols.SUBTRACTION
-import com.david.calculator.MathExpression.adaptFromScreen
-import com.david.calculator.MathExpression.isABinaryOperator
-import com.david.calculator.MathExpression.isANumber
-import com.david.calculator.MathExpression.isAnUnaryOperator
-import com.david.calculator.MathExpression.isAnOperator
+import com.david.kalculator.MathSymbols.ADDITION
+import com.david.kalculator.MathSymbols.BASE_10_LOGARITHM
+import com.david.kalculator.MathSymbols.DIVISION
+import com.david.kalculator.MathSymbols.EMPTY_STRING
+import com.david.kalculator.MathSymbols.EXPONENTIATION
+import com.david.kalculator.MathSymbols.FACTORIAL
+import com.david.kalculator.MathSymbols.MULTIPLICATION
+import com.david.kalculator.MathSymbols.NATURAL_LOGARITHM
+import com.david.kalculator.MathSymbols.NONE
+import com.david.kalculator.MathSymbols.PARENTHESIS_END
+import com.david.kalculator.MathSymbols.PARENTHESIS_START
+import com.david.kalculator.MathSymbols.SQUARE_ROOT
+import com.david.kalculator.MathSymbols.SUBTRACTION
+import com.david.kalculator.MathExpression.adaptFromScreen
+import com.david.kalculator.MathExpression.isABinaryOperator
+import com.david.kalculator.MathExpression.isANumber
+import com.david.kalculator.MathExpression.isAnUnaryOperator
+import com.david.kalculator.MathExpression.isAnOperator
 
 object MathCalculator {
 
