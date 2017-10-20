@@ -12,7 +12,6 @@ import com.david.kalculator.MathSymbols.NONE
 import com.david.kalculator.MathSymbols.PARENTHESIS_END
 import com.david.kalculator.MathSymbols.PARENTHESIS_START
 import com.david.kalculator.MathSymbols.SQUARE_ROOT
-import com.david.kalculator.MathSymbols.SUBTRACTION
 import com.david.kalculator.MathExpression.adaptFromScreen
 import com.david.kalculator.MathExpression.isABinaryOperator
 import com.david.kalculator.MathExpression.isANumber
@@ -161,7 +160,6 @@ object MathCalculator {
     private fun calculateBinaryOperation(operand1: Double, operand2: Double, operator: String): Double {
         when (operator) {
             ADDITION -> return MathOperation.addition(operand1, operand2)
-            SUBTRACTION -> return MathOperation.subtraction(operand1, operand2)
             MULTIPLICATION -> return MathOperation.multiplication(operand1, operand2)
             DIVISION -> return MathOperation.division(operand1, operand2)
             EXPONENTIATION -> return MathOperation.exponentiation(operand1, operand2)
